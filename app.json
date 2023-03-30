@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "test_ble_7",
+    "plugins": [
+      [
+        "@config-plugins/react-native-ble-plx"
+      ]
+    ],
+    "slug": "test_ble_7",
+    "version": "1.0.28",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "lfarmer9"
+      
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT"
+      ],
+      "package": "com.londof.test_ble_7"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a8bbb989-0356-4da8-92d6-f9ab29d172db"
+      }
+    }
+  }
+}
