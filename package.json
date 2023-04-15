@@ -1,6 +1,6 @@
 {
-  "name": "test_ble_7",
-  "version": "1.0.28",
+  "name": "trial1",
+  "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -10,18 +10,19 @@
   },
   "dependencies": {
     "@config-plugins/react-native-ble-plx": "^5.0.0",
-    "expo": "~48.0.4",
-    "expo-dev-client": "^2.1.6",
-    "expo-status-bar": "~1.4.4",
-    "react": "18.2.0",
-    "react-native": "0.71.4",
+    "expo": "~47.0.12",
+    "expo-dev-client": "~2.0.1",
+    "expo-status-bar": "~1.4.2",
+    "react": "18.1.0",
+    "react-native": "0.70.5",
     "react-native-base64": "^0.2.1",
     "react-native-ble-plx": "^2.0.3",
     "react-native-chart-kit": "^6.12.0",
-    "react-native-svg": "^13.4.0"
+    "react-native-date-picker": "^4.2.6",
+    "react-native-svg": "^13.8.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.12.9"
   },
   "private": true
 }
