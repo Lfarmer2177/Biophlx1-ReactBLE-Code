@@ -1,13 +1,12 @@
-{
-  "expo": {
-    "name": "test_ble_7",
+"expo": {
+    "name": "apr15_build",
+    "slug": "apr15_build",
+    "version": "1.0.0",
     "plugins": [
       [
         "@config-plugins/react-native-ble-plx"
       ]
     ],
-    "slug": "test_ble_7",
-    "version": "1.0.28",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,8 +20,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "lfarmer9"
-      
+      "bundleIdentifier": "lfarmer23"
     },
     "android": {
       "adaptiveIcon": {
@@ -33,15 +31,14 @@
         "android.permission.BLUETOOTH",
         "android.permission.BLUETOOTH_ADMIN",
         "android.permission.BLUETOOTH_CONNECT"
-      ],
-      "package": "com.londof.test_ble_7"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "a8bbb989-0356-4da8-92d6-f9ab29d172db"
+        "projectId": "4c1832b6-a33b-4d10-a9ab-2d6bc94705ba"
       }
     }
   }
