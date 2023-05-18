@@ -2,7 +2,7 @@
   "expo": {
     "name": "apr15_build",
     "slug": "apr15_build",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "plugins": [
       [
         "@config-plugins/react-native-ble-plx"
